@@ -1,0 +1,5 @@
+/pint_backend/node_modules
+/pint_frontend/node_module
+/pint_frontend/.env
+/pint-token
+/.idea
