@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router'
 
 import { client } from '../client'
 
-// import shareVideo from '../assets/share.mp4'
+import shareVideo from '../assets/share.mp4'
 import logo from '../assets/logowhite.png'
 
 const Login = () => {
@@ -33,14 +33,14 @@ const Login = () => {
   return (
       <div className="flex justify-start items-center flex-col h-screen">
         <div className="relative w-full h-full">
-          {/*<video*/}
-          {/*    src={shareVideo}*/}
-          {/*    loop*/}
-          {/*    controls={false}*/}
-          {/*    muted*/}
-          {/*    autoPlay*/}
-          {/*    className="h-full w-full object-cover"*/}
-          {/*/>*/}
+          <video
+              src={shareVideo}
+              loop
+              controls={false}
+              muted
+              autoPlay
+              className="h-full w-full object-cover"
+          />
           <div
               className="absolute flex flex-col justify-center items-center top-0 right-0 bottom-0 left-0 bg-blackOverlay">
             <div className="p-5">
