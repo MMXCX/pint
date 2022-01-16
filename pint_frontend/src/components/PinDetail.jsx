@@ -121,11 +121,15 @@ const PinDetail = ({ user }) => {
                       className="flex gap-2 mt-5 items-center bg-white rounded-lg"
                       key={_key}
                   >
-                    <img
-                        src={postedBy.image}
-                        className="w-10 h-10 rounded-full cursor-pointer"
-                        alt="user-profile"
-                    />
+                    <Link
+                        to={`/user-profile/${postedBy._id}`}
+                    >
+                      <img
+                          src={postedBy.image}
+                          className="w-10 h-10 rounded-full cursor-pointer"
+                          alt="user-profile"
+                      />
+                    </Link>
                     <div className="flex flex-col">
                       <p className="font-bold">{postedBy.userName}</p>
                       <p>
