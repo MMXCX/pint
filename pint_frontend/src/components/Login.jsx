@@ -10,6 +10,7 @@ import logo from '../assets/logowhite.png'
 const Login = () => {
   const navigate = useNavigate()
 
+
   const responseGoogle = (response) => {
     localStorage.setItem('user', JSON.stringify(response.profileObj))
 
