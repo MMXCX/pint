@@ -55,7 +55,7 @@ const Login = () => {
                           onClick={renderProps.onClick}
                           disabled={renderProps.disabled}
                       >
-                        <FcGoogle className="mr-4"/>Please Login...
+                        <FcGoogle className="mr-4"/>Another Branch
                       </button>
                   )}
                   onSuccess={responseGoogle}
