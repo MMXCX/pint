@@ -55,7 +55,7 @@ const Login = () => {
                           onClick={renderProps.onClick}
                           disabled={renderProps.disabled}
                       >
-                        <FcGoogle className="mr-4"/>Sign up with Google
+                        <FcGoogle className="mr-4"/>Please Login...
                       </button>
                   )}
                   onSuccess={responseGoogle}
